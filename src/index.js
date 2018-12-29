@@ -2,12 +2,6 @@ import React from "react";
 import { render } from "react-dom";
 import axios from "axios";
 
-const url = "https://api.myjson.com/bins/dfez0";
-
-axios.get(url).then(res => {
-  console.log(res.data);
-});
-
 class App extends React.Component {
   constructor() {
     super();
